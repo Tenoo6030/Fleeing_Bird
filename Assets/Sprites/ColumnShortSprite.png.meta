@@ -46,8 +46,8 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 0
   spriteMeshType: 0
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
   spritePixelsToUnits: 200
   spriteBorder: {x: 113, y: 374, z: 113, w: 23}
   spriteGenerateFallbackPhysicsShape: 0
@@ -100,20 +100,20 @@ TextureImporter:
       name: ColumnBody
       rect:
         serializedVersion: 2
-        x: 173
+        x: 174
         y: 0
-        width: 168
-        height: 372
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 166
+        height: 50
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac0bfe0bffcd81a4bae3ca36f6a8dab9
-      internalID: 1779209829
+      spriteID: ac7f9c0fafd25e645b0e183dd70ff2ab
+      internalID: -1089951244
       vertices: []
       indices: 
       edges: []
@@ -122,20 +122,20 @@ TextureImporter:
       name: ColumnHead
       rect:
         serializedVersion: 2
-        x: 115
-        y: 373
-        width: 283
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 114
+        y: 344
+        width: 285
+        height: 142
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 836960ca92a38484aaaf0e3b3e1370b5
-      internalID: -89149112
+      spriteID: 63f7b39df82f16345b2917216aee7514
+      internalID: 2083137038
       vertices: []
       indices: 
       edges: []
@@ -152,10 +152,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      ColumnBody: 1779209829
-      ColumnHead: -89149112
+      ColumnBody: -1089951244
+      ColumnHead: 2083137038
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
